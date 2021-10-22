@@ -1,0 +1,110 @@
+.card3 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0);
+    min-width: 200px;
+    box-shadow: 0 3px 5px #ddd;
+    color: #555;
+}
+.card3 .box3 {
+    width: 200px;
+    height: 206px;
+    margin: auto;
+    /*background: rgba(221, 221, 221, 0);*/
+    cursor: pointer;
+    box-shadow: 0 0 5px #ccc inset;
+}
+.card3 .box3 .fill3 {
+    width: 199px;
+    height: 200px;
+    position: relative;
+    left: 1px;
+    /*opacity: .3;*/
+    box-shadow: 0 0 5px #55524c;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}.card3.box3.fill3 {
+     width: 193px;
+     height: 200px;
+     position: relative;
+     right: 1px;
+     /*opacity: .3;*/
+     box-shadow: 0 0 5px #55524c;
+     -webkit-transition: 0.3s;
+     transition: 0.3s;
+ }
+
+.card3 p {
+    margin: 5px 0 0;
+}
+
+.rotate:hover .fill3 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rotateX:hover .fill3 {
+    -webkit-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+}
+
+.rotateY:hover .fill3 {
+    -webkit-transform: rotateY(45deg);
+    transform: rotateY(45deg);
+}
+
+.rotateZ:hover .fill3 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.scale:hover .fill3 {
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.scaleX:hover .fill3 {
+    -webkit-transform: scaleX(1.2);
+    transform: scaleX(1.2);
+}
+
+.scaleY:hover .fill3 {
+    -webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
+}
+
+.skew:hover .fill3 {
+    -webkit-transform: skew(45deg, 45deg);
+    transform: skew(45deg, 45deg);
+}
+
+.skewX:hover .fill3 {
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+}
+
+.skewY:hover .fill3 {
+    -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
+}
+
+.translate:hover .fill3 {
+    -webkit-transform: translate(45px, 1em);
+    transform: translate(45px, 1em);
+}
+
+.translateX:hover .fill3 {
+    -webkit-transform: translateX(45px);
+    transform: translateX(45px);
+}
+
+.translateY:hover .fill3 {
+    -webkit-transform: translateY(45px);
+    transform: translateY(45px);
+}
+
+.matrix:hover .fill3 {
+    -webkit-transform: matrix(2, 2, 0, 2, 45, 0);
+    transform: matrix(2, 2, 0, 2, 45, 0);
+}
